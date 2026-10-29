@@ -1,0 +1,47 @@
+<!--
+    Nama Programmer : Ega Satria Harshavardana
+    Nama File       : galeri-frame.html
+    Tgl Ngoding     : 23 Oktober 2026
+    Deskripsi       : Halaman Galeri Kegiatan Menggunakan Frame
+    Catatan         : Murni HTML, tanpa CSS dan JavaScript.
+                      Halaman ini memakai tag <frameset> dan <frame>.
+-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio - Galeri Frame</title>
+</head>
+
+<!-- HALAMAN FRAME: judul, menu, galeri, dan footer -->
+<frameset rows="16%,*,10%" frameborder="1" border="2">
+
+    <!-- FRAME ATAS: judul -->
+    <frame src="frame-judul.html" name="frameJudul" scrolling="no">
+
+    <!-- FRAME TENGAH: dibagi dua kolom -->
+    <frameset cols="22%,78%">
+
+        <!-- FRAME KIRI: menu -->
+        <frame src="frame-menu.html" name="frameMenu">
+
+        <!-- FRAME KANAN: galeri foto kegiatan -->
+        <frame src="frame-galeri.html" name="frameGaleri">
+
+    </frameset>
+
+    <!-- FRAME BAWAH: footer -->
+    <frame src="frame-footer.html" name="frameFooter" scrolling="no">
+
+    <noframes>
+        <body bgcolor="#DCEAF5">
+            <p>
+                Browser Anda tidak mendukung frame.
+                <a href="index.html">Kembali ke Beranda</a>
+            </p>
+        </body>
+    </noframes>
+
+</frameset>
+
+</html>

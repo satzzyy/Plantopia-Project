@@ -1,0 +1,185 @@
+<!--
+    Nama Programmer : Ega Satria Harshavardana
+    Nama File       : peta-iframe.html
+    Tgl Ngoding     : 23 Oktober 2026
+    Deskripsi       : Halaman Peta Lokasi Kampus Menggunakan Iframe
+    Catatan         : Murni HTML, tanpa CSS dan JavaScript.
+-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Peta Iframe - Ega Satria Harshavardana</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#1B6E7A" vlink="#1B6E7A">
+
+    <center>
+    <table width="1000" border="0" cellpadding="0" cellspacing="0">
+
+        <!-- HEADER -->
+        <tr>
+            <td bgcolor="#CFE3F0">
+                <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                    <tr valign="middle">
+                        <td width="15%" align="center">
+                            <img src="img/logo-unpam.png" alt="Logo Universitas Pamulang" width="72" height="72">
+                        </td>
+                        <td width="65%" align="center">
+                            <font face="Georgia, Times New Roman" size="6" color="#1B6E7A">
+                                <b>PORTOFOLIO MAHASISWA</b>
+                            </font>
+                            <br>
+                            <font face="Georgia, Times New Roman" size="2" color="#3A6B75">
+                                <i>Personal Portfolio of Ega Satria Harshavardana</i>
+                            </font>
+                        </td>
+                        <td width="20%" align="center">
+                            <img src="img/header-kampus.jpg" alt="Gedung Kampus" width="130" height="73" border="1">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- BAR PENCARIAN -->
+        <tr>
+            <td bgcolor="#DDEBD3">
+                <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td align="left">
+                            <font size="2" color="#4A6B3A">
+                                <b>Universitas Pamulang &bull; Teknik Informatika &bull; Semester 5</b>
+                            </font>
+                        </td>
+                        <td align="right">
+                            <form action="#" method="get">
+                                <font size="2">
+                                    Cari:
+                                    <input type="text" name="q" size="18" value="">
+                                    <input type="submit" value="Cari">
+                                </font>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- ISI -->
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                    <tr valign="top">
+
+                        <!-- SIDEBAR KIRI -->
+                        <td width="18%" bgcolor="#DCEAF5">
+                            <font face="Verdana, Arial" size="2">
+                                <b>MENU</b>
+                            </font>
+                            <hr size="1" color="#9FC2D8">
+
+                            <font face="Verdana, Arial" size="2">
+                                <a href="index.html">Beranda</a><br><br>
+                                <a href="daftar-kemampuan.html">Daftar Kemampuan</a><br><br>
+                                <a href="tabel-data.html">Tabel Data Diri</a><br><br>
+                                <a href="galeri-frame.html">Galeri Frame</a><br><br>
+                                <a href="peta-iframe.html"><b>Peta Iframe</b></a>
+                            </font>
+
+                            <hr size="1" color="#9FC2D8">
+
+                            <font face="Verdana, Arial" size="2">
+                                <b>ALAMAT KAMPUS</b>
+                            </font>
+                            <br><br>
+                            <font face="Verdana, Arial" size="1">
+                                Jl. Surya Kencana No. 1<br>
+                                Pamulang, Tangerang Selatan<br>
+                                Banten
+                            </font>
+                        </td>
+
+                        <!-- KONTEN -->
+                        <td width="82%" bgcolor="#FFFFFF">
+                            <font face="Verdana, Arial" size="4" color="#1B6E7A">
+                                <b>PETA LOKASI KAMPUS</b>
+                            </font>
+                            <hr size="2" color="#CFE3F0">
+
+                            <font face="Verdana, Arial" size="2">
+                                Peta di bawah ini menampilkan lokasi Universitas Pamulang
+                                pada halaman lain yang disisipkan menggunakan tag
+                                <b>iframe</b>. Peta dapat digeser dan diperbesar langsung
+                                dari halaman ini.
+                            </font>
+
+                            <br><br>
+
+                            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=106.7335%2C-6.3515%2C106.7445%2C-6.3405&amp;layer=mapnik&amp;marker=-6.3460%2C106.7390"
+                                    width="100%" height="420" frameborder="1" scrolling="no">
+                                Browser Anda tidak mendukung iframe.
+                            </iframe>
+
+                            <br>
+                            <font face="Verdana, Arial" size="1" color="#555555">
+                                <i>Sumber peta: OpenStreetMap</i>
+                            </font>
+
+                            <br><br>
+
+                            <font face="Verdana, Arial" size="2">
+                                Jika peta tidak tampil, buka tautan berikut:
+                                <a href="https://www.openstreetmap.org/?mlat=-6.3460&amp;mlon=106.7390#map=16/-6.3460/106.7390" target="_blank">
+                                    Peta Universitas Pamulang
+                                </a>
+                            </font>
+
+                            <br>
+                            <hr size="1" color="#CFE3F0">
+
+                            <font face="Verdana, Arial" size="1" color="#555555">
+                            </font>
+                        </td>
+
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- FOOTER -->
+        <tr>
+            <td bgcolor="#1B6E7A">
+                <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                    <tr>
+                        <td align="center">
+                            <font face="Verdana, Arial" size="2" color="#FFFFFF">
+                                <b>PORTOFOLIO MAHASISWA</b> | Setiap Langkah Punya Cerita
+                            </font>
+                            <br>
+                            <font face="Verdana, Arial" size="1">
+                                <a href="index.html"><font color="#FFFFFF">Beranda</font></a> |
+                                <a href="daftar-kemampuan.html"><font color="#FFFFFF">Daftar Kemampuan</font></a> |
+                                <a href="tabel-data.html"><font color="#FFFFFF">Tabel Data Diri</font></a> |
+                                <a href="galeri-frame.html"><font color="#FFFFFF">Galeri Frame</font></a> |
+                                <a href="peta-iframe.html"><font color="#FFFFFF">Peta Iframe</font></a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <font face="Verdana, Arial" size="1" color="#555555">
+                    &copy; 2026 Ega Satria Harshavardana - 241011400371<br>
+                    Tugas UTS Pemrograman Web 1
+                </font>
+            </td>
+        </tr>
+
+    </table>
+    </center>
+
+</body>
+</html>
